@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const variable1 = 15;
+        const variable2 = 10;
+
+        if (variable1 >= variable2) {
+            alert("The value of variable1 is greater than or equal to variable2");
+        } else {
+            alert("The value of variable1 is less than variable2");
+        }
+
+
+
+        const marks = parseFloat(prompt("Enter your marks:"));
+
+        if (isNaN(marks) || marks < 0 || marks > 100) {
+            alert("Invalid input. Please enter valid marks between 0 and 100.");
+        } else {
+            const percentage = (marks / 100) * 100;
+
+            if (percentage >= 80) {
+                alert("Your grade is A");
+            } else if (percentage >= 60) {
+                alert("Your grade is B");
+            } else if (percentage >= 40) {
+                alert("Your grade is C");
+            } else {
+                alert("Your grade is Fail");
+            }
+        }
+
+
+
+        // if (a === 10) {
+        //     alert("a is 10");
+        // } else {
+        //     alert("The correct value of a is " + a);
+        // }
+
+
+
+        
+        const userCity = prompt("Enter your city:");
+
+        if (userCity.toLowerCase() === "karachi") {
+            alert("You are in Karachi");
+        } else if (userCity.toLowerCase() === "lahore") {
+            alert("You are in Lahore");
+        } else {
+            alert("You are in a city other than Karachi or Lahore");
+        }
+
+    </script>
+</body>
+
+</html>

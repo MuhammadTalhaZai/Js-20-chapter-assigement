@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (let i = 0; i <= 11; i++) {
+            console.log(i);
+        }
+        for (var i = 0; i <= 4; i++) {
+
+        }
+
+        for (var counter = 0; counter < 100; counter++) {
+            console.log(counter)
+        }
+        for (var i = 3; i > 0; i--) {
+            console.log(i)
+        }
+
+
+        var userNames = ["John", "Jane", "Bob", "Alice"];
+
+        var firstName = prompt("Enter first name");
+
+        for (var i = 0; i < userNames.length; i++) {
+            if (firstName === userNames[i]) {
+                alert("Enter");
+                break;
+            }
+        }
+
+
+
+
+        var firstArr = ["a", "b", "c", "d", "e", "f"];
+        var secondArr = [1, 2, 3, 4, 5, 6];
+
+        for (var i = 0; i < firstArr.length; i++) {
+            for (var j = 0; j < secondArr.length; j++) {
+                console.log(firstArr[i] + secondArr[j]);
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
